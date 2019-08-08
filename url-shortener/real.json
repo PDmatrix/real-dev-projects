@@ -1,0 +1,5 @@
+{
+  "task": "url-shortener",
+  "configSource": "env",
+  "stack": { "type": "nodejs", "main": "src/app.js" }
+}
