@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  network-service:
+    image: busybox
+    command: sleep infinity
+    init: true
+  mongodb:
+    image: 'mongo:latest'
+    network_mode: service:network-service
+  type-those-scripts:
+    build:
+      context: .
+    command: bash
+    environment:
+      - MONGO_HOST=localhost
+    depends_on:
+      - mongodb
+    network_mode: service:network-service

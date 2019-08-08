@@ -1,0 +1,9 @@
+{
+  "task": "type-those-scripts",
+  "stack": {
+    "type": "docker-compose",
+    "service": "type-those-scripts",
+    "networkService": "network-service"
+  },
+  "template": "express-mongodb"
+}
