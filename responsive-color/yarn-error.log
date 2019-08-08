@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add webpack webpack-dev-server -D
+
+PATH: 
+  /usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dmatrix/go/bin:/home/dmatrix/.config/composer/vendor/bin:/home/dmatrix/.dotnet/tools:/home/dmatrix/.npm/bin:/home/dmatrix/.gem/ruby/2.5.0/bin:/home/dmatrix/.local/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  11.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/dmatrix/Coding/Projects/real-dev-projects/responsive-color/package.json: Unexpected token } in JSON at position 318
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "responsive-color",
+    "version": "1.0.0",
+    "description": "This is for the node task responsive-color. Please leave build as it is and fill in start scripts",
+    "main": "index.js",
+    "scripts": {
+      "build": "echo 'Skipped build'",
+      "start": "node src/App.js"
+    },
+    "author": "",
+    "license": "ISC",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
