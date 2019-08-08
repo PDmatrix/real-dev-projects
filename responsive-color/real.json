@@ -1,0 +1,11 @@
+{
+  "task": "responsive-color",
+  "stack": {
+    "type": "nodejs",
+    "version": "10"
+  },
+  "configSource": {
+    "jsonFile": "config.json"
+  },
+  "template": "nodejs"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "responsive-color",
+  "version": "1.0.0",
+  "description": "This is for the node task responsive-color. Please leave build as it is and fill in start scripts",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Skipped build'",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
