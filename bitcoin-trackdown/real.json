@@ -1,0 +1,5 @@
+{
+  "task": "bitcoin-trackdown",
+  "configSource": "cli",
+  "stack": { "type": "python3", "main": "main.py" }
+}
