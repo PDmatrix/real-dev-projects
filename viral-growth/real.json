@@ -1,0 +1,5 @@
+{
+  "task": "viral-growth",
+  "configSource":  { "jsonFile": "./config.json" },
+  "stack": {"type": "nodejs"}
+}
