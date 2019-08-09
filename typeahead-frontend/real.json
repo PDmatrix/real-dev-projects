@@ -1,0 +1,8 @@
+{
+  "task": "typeahead-frontend",
+  "stack": {
+    "type": "nodejs",
+    "version": "10"
+  },
+  "template": "react-ts"
+}
