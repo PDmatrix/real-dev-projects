@@ -20,10 +20,6 @@ const generateInviteCode = () => {
   return randexp(`[${config.inviteCodeChars}]{50}`);
 };
 
-/*
-There is something off with viral-growth task. When I post solution, test fails with message "Register should return user ID". But my solution returns single string in the body, representing the user ID. Response is exactly like in example, but it doesn't work
- */
-
 app.post("/register", (req, res) => {
   if(!req.body || !req.body.userName) {
     res.sendStatus(400).end();

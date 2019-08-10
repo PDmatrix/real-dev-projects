@@ -1,0 +1,6 @@
+{
+  "task": "typeahead-backend",
+  "configSource":  "env",
+  "template": "default",
+  "stack": {"type": "nodejs"}
+}
