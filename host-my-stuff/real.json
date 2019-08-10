@@ -1,0 +1,8 @@
+{
+  "task": "host-my-stuff",
+  "configSource": "cli",
+  "stack": {
+    "type": "python3",
+    "main": "main.py"
+  }
+}
