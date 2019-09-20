@@ -1,0 +1,7 @@
+{
+  "task": "concat-node-streams",
+  "stack": {
+    "type": "nodejs"
+  },
+  "template": "node-stream"
+}
