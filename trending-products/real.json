@@ -1,0 +1,7 @@
+{
+  "task": "trending-products",
+  "configSource": "cli",
+  "stack": {
+    "type": "docker"
+  }
+}
